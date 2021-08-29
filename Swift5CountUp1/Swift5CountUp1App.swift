@@ -13,5 +13,6 @@ struct Swift5CountUp1App: App {
         WindowGroup {
             ContentView()
         }
+        
     }
 }
