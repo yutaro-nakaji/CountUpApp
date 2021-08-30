@@ -11,6 +11,7 @@
 		3128A8B126DB0D4C00D970F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3128A8B026DB0D4C00D970F5 /* ContentView.swift */; };
 		3128A8B326DB0D4E00D970F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3128A8B226DB0D4E00D970F5 /* Assets.xcassets */; };
 		3128A8B626DB0D4E00D970F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3128A8B526DB0D4E00D970F5 /* Preview Assets.xcassets */; };
+		3128A8BE26DCEE2300D970F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3128A8BD26DCEE2300D970F5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3128A8B226DB0D4E00D970F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3128A8B526DB0D4E00D970F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3128A8B726DB0D4E00D970F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3128A8BD26DCEE2300D970F5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3128A8AE26DB0D4C00D970F5 /* Swift5CountUp1App.swift */,
 				3128A8B026DB0D4C00D970F5 /* ContentView.swift */,
+				3128A8BD26DCEE2300D970F5 /* Main.storyboard */,
 				3128A8B226DB0D4E00D970F5 /* Assets.xcassets */,
 				3128A8B726DB0D4E00D970F5 /* Info.plist */,
 				3128A8B426DB0D4E00D970F5 /* Preview Content */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3128A8BE26DCEE2300D970F5 /* Main.storyboard in Resources */,
 				3128A8B626DB0D4E00D970F5 /* Preview Assets.xcassets in Resources */,
 				3128A8B326DB0D4E00D970F5 /* Assets.xcassets in Resources */,
 			);
@@ -279,7 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yutaronakaji.Swift5CountUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yutaronakaji.Swift5CountUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
