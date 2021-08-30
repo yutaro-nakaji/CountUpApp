@@ -19,6 +19,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
+            
         }
     }
 }
